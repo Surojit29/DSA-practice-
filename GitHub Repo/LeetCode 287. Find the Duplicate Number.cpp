@@ -1,3 +1,6 @@
+// type medium
+// dsa sheet arsh
+
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
