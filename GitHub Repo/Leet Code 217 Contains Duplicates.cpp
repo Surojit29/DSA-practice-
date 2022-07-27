@@ -25,3 +25,19 @@ int main(){
 
 
 }
+// Run time error
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+    
+    sort(nums.begin(),nums.end());
+            for(int i = 0; i < int(nums.size()); i++) {
+                if(nums[i]==nums[i+1]){
+                    return true;
+                }
+            }
+        return false;
+    }
+    //using sorting , and also soln. is 2loop iteration ,  using maps ,using set hash table//
+};
